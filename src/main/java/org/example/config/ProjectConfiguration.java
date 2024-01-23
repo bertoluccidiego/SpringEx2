@@ -1,13 +1,12 @@
-package config;
+package org.example.config;
 
-import models.Parrot;
-import models.Person;
-import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
+@ComponentScan(basePackages = "org.example")
 public class ProjectConfiguration {
-
+    /*
     @Bean
     public Parrot parrot() {
         Parrot parrot = new Parrot();
@@ -22,4 +21,5 @@ public class ProjectConfiguration {
         person.setParrot(parrot);
         return person;
     }
+     */
 }
