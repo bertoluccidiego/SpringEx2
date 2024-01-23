@@ -1,5 +1,8 @@
-package models;
+package org.example.models;
 
+import org.springframework.stereotype.Component;
+
+// @Component
 public class Parrot {
     private String name;
 
