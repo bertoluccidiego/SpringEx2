@@ -14,6 +14,6 @@ public class Main {
 
         System.out.println("Person's name is " + person.getName());
         System.out.println("Parrot's name is " + parrot.getName());
-        System.out.println("Person's parrot is " + person.getParrot());
+        System.out.println("Person's parrot is " + person.getParrot().getName());
     }
 }
